@@ -1,9 +1,9 @@
-import AxiosExternalAPI from "./components/AxiosExternalApi";
+import FormControlled from "./components/FormControlled";
 
 function App() {
   return (
     <>
-      <AxiosExternalAPI />
+      <FormControlled />
     </>
   );
 }

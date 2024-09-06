@@ -11,6 +11,9 @@ export default {
       colors: {
         lightGreen: "#EFC16B",
         brownColor: "rgba(64,60,64,0.7)",
+        blackColor: "#3C3C3C",
+        brightRed: "hsl(12,88%,59%)",
+        brightRedLight: "hsl(12,88%,69%)",
       },
     },
   },

@@ -8,7 +8,6 @@ import { useDispatch, useSelector } from "react-redux";
 function App() {
   const dispatch = useDispatch();
   const navigation = useSelector((state) => state.navigation.isLandingPage);
-  console.log(navigation);
   return (
     <>
       <div className={`${navigation ? "main-background" : ""} `}>
